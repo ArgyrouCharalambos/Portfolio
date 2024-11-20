@@ -10,7 +10,7 @@ body{
     border: 2px solid rgb(196, 196, 196);
     border-bottom-right-radius: 70px;
     border-bottom-left-radius: 70px;
-    background-color: rgba(0, 0, 0, 0.91);
+    background-color: rgb(234, 234, 234);
 }
 .Header__Description{
     padding: 30px 10px;
@@ -69,4 +69,38 @@ body{
 .Header__Image{
     height: 150px;
     clip-path: circle();
+}
+.Main__Titre{
+    padding: 20px;
+    font-size: 28px;
+    line-height: 43px;
+    font-weight: bold;
+    text-align: center;
+}
+.Main__Description{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.Main__SousTitre{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+.Main__GroupeCompétence{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-right: 30px;
+}
+.Main__Compétence{
+    width: 50%;
+    padding: 5px;
+}
+.Main__Titre2{
+    font-weight: bold;
+    font-size: 20px;
+    width: 180px;
 }
