@@ -1,0 +1,48 @@
+.Header__GroupeNav{
+    gap: 350px;
+}
+.Header__Image{
+    height: 170px;
+}
+.Header__Texte{
+    font-size: 45px;
+    width: 500px;
+}
+.Header__GroupeMain{
+    padding: 50px 40px;
+}
+.Main__Titre{
+    font-size: 35px;
+    padding: 70px 300px;
+}
+.Main__SousTitre{
+    top: 170px;
+    background-color: white;
+    color: black;
+    padding: 25px 50px;
+    font-size: 20px;
+}
+.Main__GroupeCompétence{
+    padding: 50px 90px;
+}
+.Main__paragraphe{
+    color:rgb(66, 66, 66) ;
+}
+.Main__Compétence{
+    width: 25%;
+}
+.Main__paragraphe{
+    width: 210px;
+    margin-right: 20px;
+}
+.Footer__Texte{
+    font-size: 50px;
+    width: 700px;
+}
+.Footer__Description{
+    padding:110px 20px;
+    line-height: 70px;
+}
+.Footer__Lien{
+    margin-right: 15px;
+}

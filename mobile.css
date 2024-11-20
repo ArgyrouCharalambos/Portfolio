@@ -5,12 +5,12 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #c2c2c2;
+    background-color: #d7d7d7;
 }
 .Header{
     border-bottom: 2px solid rgb(103, 103, 103);
-    border-bottom-right-radius: 70px;
-    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 90px;
+    border-bottom-left-radius: 90px;
     background-color: #F0EFEE;
 }
 .Header__Description{
@@ -21,6 +21,7 @@ body{
     justify-content: space-around;
     align-items: center;
     padding: 15px 0;
+    width: 100%;
 }
 .Header__Nav a[href="CV"]{
     background-color: white;
@@ -78,7 +79,7 @@ body{
     clip-path: circle();
 }
 .Main{
-    background-color: #c2c2c2;
+    background-color: #d7d7d7;
     position: relative;
 }
 .Main__Titre{
@@ -149,7 +150,7 @@ body{
     text-decoration: none;
     color: white;
     background-color: black;
-    border-radius: 20px;
+    border-radius: 35px;
     border: 1px solid rgb(179, 179, 179);
     padding: 20px;
     font-weight: bold;
