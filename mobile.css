@@ -135,8 +135,24 @@ body{
 }
 
 /* Main2 de la page cv */
-.Main2{
+.CV{
     background-color: white;
+}
+.CV__Titre{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+.CV__Header{
+    text-align: center;
+    background-color: rgb(205, 205, 205);
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 .Footer{
     border-top: 3px solid rgb(0, 0, 0);
