@@ -133,6 +133,11 @@ body{
     padding: 5px;
     line-height: 22px;
 }
+
+/* Main2 de la page cv */
+.Main2{
+    background-color: white;
+}
 .Footer{
     border-top: 3px solid rgb(0, 0, 0);
     border-top-left-radius: 70px;
