@@ -136,12 +136,12 @@ body{
 
 /* Main2 de la page cv */
 .CV{
-    background-color: white;
+    background-color: #F0EFEE;
 }
 .CV__Titre{
     text-align: center;
     font-size: 25px;
-    background-color: rgb(255, 255, 255);
+    background-color: #F0EFEE;
     display: inline-block;
     padding: 10px;
     border-radius: 15px;
@@ -149,10 +149,60 @@ body{
 }
 .CV__Header{
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(205, 205, 205);
     border-bottom: 2px solid black;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    padding: 40px 0;
+}
+.CV__SousTitre{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+.CV__Domaine{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #F0EFEE;
+    display: inline-block;
+    padding: 15px 0;
+    border: 8px double black; 
+    margin: 10px;
+}
+.CV__Titre2{
+    text-align: center;
+    background-color: #F0EFEE;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    border-bottom: 3px solid black;
+    padding:60px 25px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.CV__GroupeTechnique{
+    background-color: #F0EFEE; 
+    padding: 10px;
+}
+.CV__Titre3{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #cbcbcb;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px dotted black;
+}
+.CV__Titre4{
+    font-size: 23px;
+    font-weight: bold;
+}
+.CV__Paragraphe{
+    line-height: 25px;
+    font-size: 20px;
 }
 .Footer{
     border-top: 3px solid rgb(0, 0, 0);
