@@ -35,10 +35,10 @@
 }
 .Main__GroupeCompétence{
     width: 100%;
-    padding-left: 100px; 
+   padding: 40px;
 }
 .Main__Titre2{
-    font-size: 35px;
+    font-size: 33px;
     width: 400px;
 }
 .Main__paragraphe{
