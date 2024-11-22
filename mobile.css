@@ -28,7 +28,7 @@ body{
 .Header__Nav a[href="./cv.html"]{
     background-color: white;
     color: black;
-    border: dotted 3px black;
+    border: dotted 4px black;
 }
 .Header__Lien{
     text-decoration: none;
