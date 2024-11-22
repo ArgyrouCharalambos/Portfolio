@@ -197,7 +197,7 @@ body{
     text-align: center;
     margin: 0 50px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 30px;
     border: 2px solid black;
     position: relative;
     top: -50px;
@@ -209,7 +209,7 @@ body{
     text-align: center;
     margin: 0 50px;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 30px;
     border: 2px solid black;
     position: relative;
     top: -65px;
@@ -243,11 +243,15 @@ body{
     background-color: #cbcbcb;
     
 }
+.CV__Langue{
+    font-size: 25px;
+    font-weight: bold;
+}
 .CV__Titre5{
     border: 2px solid black;
     display: inline-block;
-    padding: 10px;
-    border-radius: 15px;
+    padding: 15px 30px;
+    border-radius: 30px;
     font-weight: bold;
     background-color: #F0EFEE;
 }
