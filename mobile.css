@@ -25,7 +25,7 @@ body{
     padding: 15px 0;
     width: 100%;
 }
-.Header__Nav a[href="CV"]{
+.Header__Nav a[href="./cv.html"]{
     background-color: white;
     color: black;
     border: dotted 3px black;
@@ -136,65 +136,83 @@ body{
 
 /* Main2 de la page cv */
 .CV{
-    background-color: #F0EFEE;
+    background-color: #cbcbcb;
+    text-align: center;
 }
 .CV__Titre{
     text-align: center;
-    font-size: 25px;
-    background-color: #F0EFEE;
+    font-size: 35px;
     display: inline-block;
     padding: 10px;
     border-radius: 15px;
-    border: 1px solid black;
+    
 }
 .CV__Header{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(205, 205, 205);
+    background-color: #F0EFEE;
     border-bottom: 2px solid black;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
     padding: 40px 0;
+}
+.CV__Header2{
+    background-color: #cbcbcb;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
+.CV__Groupe{
+    background-color: #F0EFEE;
 }
 .CV__SousTitre{
     font-size: 20px;
     font-weight: bold;
     color: rgb(0, 0, 0);
+    text-align: center;
 }
 .CV__Domaine{
     font-size: 20px;
     font-weight: bold;
     color: rgb(0, 0, 0);
-    background-color: #F0EFEE;
     display: inline-block;
-    padding: 15px 0;
-    border: 8px double black; 
-    margin: 10px;
+    padding: 15px 0; 
+    text-align: center;
+    padding-top: 30px;
 }
 .CV__Titre2{
     text-align: center;
-    background-color: #F0EFEE;
-    border-bottom-left-radius: 70px;
-    border-bottom-right-radius: 70px;
-    border-bottom: 3px solid black;
-    padding:60px 25px;
+    
+    padding:25px;
     font-size: 23px;
     font-weight: bold;
-}
-.CV__GroupeTechnique{
-    background-color: #F0EFEE; 
-    padding: 10px;
 }
 .CV__Titre3{
     font-size: 25px;
     font-weight: bold;
     background-color: #cbcbcb;
-    display: inline-block;
+    text-align: center;
+    margin: 0 50px;
     padding: 10px;
     border-radius: 15px;
-    border: 2px dotted black;
+    border: 2px solid black;
+    position: relative;
+    top: -50px;
+}
+.CV__Titr3{
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #cbcbcb;
+    text-align: center;
+    margin: 0 50px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+    position: relative;
+    top: -65px;
 }
 .CV__Titre4{
     font-size: 23px;
@@ -203,6 +221,35 @@ body{
 .CV__Paragraphe{
     line-height: 25px;
     font-size: 20px;
+}
+.CV__Langages{
+    padding: 20px; 
+    border-top: 10px double black; 
+}
+.CV__Outils{
+    border-top: 10px double black;
+    padding: 20px;
+    margin: 30px 0;
+}
+.CV__Concepts{
+    border-top: 10px double black;
+    padding: 20px;
+}
+.CV__Footer{
+    border-top: 3px solid black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    text-align: center;
+    background-color: #cbcbcb;
+    
+}
+.CV__Titre5{
+    border: 2px solid black;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #F0EFEE;
 }
 .Footer{
     border-top: 3px solid rgb(0, 0, 0);
