@@ -64,6 +64,32 @@
     top: -50px;
     margin: 0 350px;
 }
+
+/* Partie de la page projet */
+
+.Projet__groupe-description{
+    display: flex;
+    gap: 20%;
+}
+.Projet__image{
+    width: 25%;
+    border-top: 10px double black;
+    border: none;
+    border: 20px solid #F0EFEE;
+}
+.Projet__titre{
+    border: none;
+}
+.Projet__texte{
+    border: none;
+    padding-top: 40px;
+    
+}
+.Projet__description{
+    text-align: start;
+}
+
+
 .Footer__Texte{
     font-size: 50px;
     width: 700px;
