@@ -86,6 +86,35 @@ body{
 .Main{
     background-color:  #cbcbcb;
 }
+.Logo-Groupe {
+    width: 100%;
+    overflow: hidden; /* Cache tout ce qui dépasse */
+    position: relative;
+    background-color: #cbcbcb;
+    border-bottom: 3px solid black;
+    padding: 50px 10px 67px 10px;
+    border-radius: 100px;
+}
+
+.Logo-Déroulement {
+    display: flex;
+    animation: defilement 15s linear infinite; 
+}
+
+.Logo-Déroulement img {
+    margin: 0 10px;
+    height: 40px;
+}
+
+@keyframes defilement {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Déplace les logos vers la gauche */
+    }
+}
+
 .Main__Titre{
     padding: 20px;
     font-size: 28px;
@@ -103,7 +132,7 @@ body{
 .Main__SousTitre{
     text-align: center;
     border: 3px solid black;
-    background-color:#F0EFEE;
+    background-color:#f0efee;
     color: 
     rgb(0, 0, 0);
     font-weight: bold;
