@@ -84,7 +84,8 @@ body{
     clip-path: circle();
 }
 .Main{
-    background-color:  #cbcbcb;
+    background-color:  #F0EFEE;
+    position: relative;
 }
 .Logo-Groupe {
     width: 100%;
@@ -92,8 +93,9 @@ body{
     position: relative;
     background-color: #cbcbcb;
     border-bottom: 3px solid black;
-    padding: 50px 10px 67px 10px;
-    border-radius: 100px;
+    padding: 50px 10px 80px 10px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
 }
 
 .Logo-Déroulement {
@@ -123,11 +125,13 @@ body{
     text-align: center;
     border-bottom: 7px double rgb(0, 0, 0);
     padding-bottom: 60px;
+    margin: 0;
 }
 .Main__Description{ 
    display: flex;
    flex-direction: column;
    align-items: center;
+   background-color: #cbcbcb;
 }
 .Main__SousTitre{
     text-align: center;
@@ -138,13 +142,13 @@ body{
     font-weight: bold;
     border-radius: 30px;
     padding: 15px 30px;
-    position: relative;
-    top: -70px;
+    position: absolute;
+    top: 345px; 
 }
 .Main__GroupeCompétence{
     display: flex;
     flex-wrap: wrap; 
-    padding: 10px;
+    padding: 30px 10px;
 }
 .Main__Compétence{
     width: 50%;
