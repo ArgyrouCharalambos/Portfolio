@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Otterco Display Medium';
+    src: url('./Police/Otterco\ Display\ Medium.otf') format('opentype');
+  }
 *{
     box-sizing: border-box;
 }
@@ -9,7 +13,7 @@ body{
     border-bottom-right-radius: 90px;
     border-bottom-left-radius: 90px;
     background-color: #EFEEED;
-    border-bottom: 2px solid rgb(174, 174, 174);
+    border-bottom: 2px solid rgb(230, 230, 230);
 }
 .Header__Description{
     padding: 30px 0px;
@@ -68,10 +72,14 @@ body{
 }
 .Header__Texte{
     color: rgb(0, 0, 0);
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 400;
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
     width: 360px;
+    background: linear-gradient(to right, 
+    #252525, #918f8f);
+      -webkit-background-clip: text;
+      color: transparent;
     
 }
 .Header__Button{
@@ -136,7 +144,8 @@ body{
     padding: 50px 10px 80px 10px;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
-    border-bottom: 2px solid rgb(174, 174, 174);
+    border-bottom: 2px solid rgb(230, 230, 230);
+    margin-bottom: 30px;
 }
 
 .Logo-Déroulement {
@@ -159,16 +168,18 @@ body{
 }
 
 .Main__Titre{
-    padding: 20px;
-    font-size: 28px;
+    padding: 10px;
+    font-size: 32px;
     line-height: 43px;
-    font-weight: 600;
     text-align: center;
-    border-bottom: 2px solid rgb(174, 174, 174);
+    border-bottom: 2px solid rgb(230, 230, 230);
     padding-bottom: 60px;
     margin: 0;
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
-    color: #242424;
+    background: linear-gradient(to right, 
+    #000000, #6e6e6e);
+      -webkit-background-clip: text;
+      color: transparent;
 }
 .Main__Description{ 
    display: flex;
@@ -185,7 +196,8 @@ body{
     border-radius: 30px;
     padding: 15px 30px;
     position: absolute;
-    top: 340px; 
+    top: 365px; 
+    transform: rotate(-10deg);
 
 }
 .Main__GroupeCompétence{
@@ -378,7 +390,7 @@ body{
     border-top-right-radius: 70px;
     padding: 15px;
     background-color: #F9F9F9;
-    border-top: 2px solid rgb(174, 174, 174);
+    border-top: 2px solid rgb(230, 230, 230);
 }
 .Footer__Description{
     display: flex;
@@ -394,6 +406,10 @@ body{
     text-align: center;
     color: #242424;
     font-family: "Otterco Display SemiBold", "Otterco Display SemiBold Placeholder", sans-serif;
+    background: linear-gradient(to right, 
+    #000000, #6e6e6e);
+      -webkit-background-clip: text;
+      color: transparent;
 }
 .footer__Renseingnement a[href="WhatsApp"] {
     background-color: rgb(255, 255, 255);
@@ -404,7 +420,9 @@ body{
     color: white;
     background-color: #242424;
     border-radius: 35px;
-    padding: 20px;
+    padding: 20px 26px;
+    font-size: 11px;
+    margin-right: 5px;
     font-weight: bold;
     font-family: "Otterco Medium", "Otterco Medium Placeholder", sans-serif;
     border: 5px solid #F1F0EF;
@@ -412,6 +430,7 @@ body{
 }
 .Footer__Droit{
     font-weight: 500;
+    font-size: 15px;
 }
 .Footer__Image{
     height: 180px;
@@ -424,16 +443,10 @@ body{
     
     
 }
-.Footer__Icone{
-    height: 20px;
-    margin-right: 10px;
-    position: relative;
-    left: 4px;
-    top: 3px;
-}
 .Footer__End{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:4px 10px;
+    padding:10px 6px;
+    gap: 20p;
 }
