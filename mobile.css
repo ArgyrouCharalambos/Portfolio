@@ -90,6 +90,12 @@ body{
     border-radius: 100px;
     font-family: "Otterco Medium", "Otterco Medium Placeholder", sans-serif;
 }
+.Header__Button:hover{
+    transition: 1.5s;
+    color: black;
+    background:transparent;
+    border: 1px solid black;
+}
 .Header__GroupeMain{
     padding:70px 40px;
     display: flex;
@@ -115,6 +121,7 @@ body{
     padding: 13px 10px;
     border-radius: 30px;
     font-size: 9px;
+    box-shadow: 0 2px 5px #6e6e6e;
     position: absolute;
     top: 40px;
     left: 95px; 
