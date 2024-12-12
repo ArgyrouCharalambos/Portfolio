@@ -44,7 +44,7 @@ body{
 }
 .Header-SectionIcone{
     display: flex;
-    gap: 0px;
+    gap: 3px;
 }
 .Header__NavIcone{
     background-color: rgb(255, 255, 255);
@@ -73,11 +73,11 @@ body{
 .Header__Texte{
     color: rgb(0, 0, 0);
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
-    width: 360px;
+    width: 320px;
     background: linear-gradient(to right, 
-    #252525, #918f8f);
+    black, #918f8f);
       -webkit-background-clip: text;
       color: transparent;
     
@@ -115,7 +115,7 @@ body{
     background-color: white;
     padding: 13px 10px;
     border-radius: 30px;
-    font-size: 12px;
+    font-size: 9px;
     position: absolute;
     top: 40px;
     left: 95px; 
@@ -140,8 +140,8 @@ body{
     width: 100%;
     overflow: hidden; /* Cache tout ce qui dépasse */
     position: relative;
-    background-color: #F9F9F9;
-    padding: 50px 10px 80px 10px;
+    background-color: #FFFFFF;
+    padding: 70px 10px 100px 10px;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     border-bottom: 2px solid rgb(230, 230, 230);
@@ -166,13 +166,17 @@ body{
         transform: translateX(-100%); /* Déplace les logos vers la gauche */
     }
 }
-
+.Main__image{
+  height: 35px ;
+  clip-path: circle();
+}
 .Main__Titre{
     padding: 10px;
-    font-size: 32px;
+    font-size: 30px;
     line-height: 43px;
     text-align: center;
     border-bottom: 2px solid rgb(230, 230, 230);
+    
     padding-bottom: 60px;
     margin: 0;
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
@@ -180,6 +184,7 @@ body{
     #000000, #6e6e6e);
       -webkit-background-clip: text;
       color: transparent;
+      font-weight: 500;
 }
 .Main__Description{ 
    display: flex;
@@ -192,37 +197,46 @@ body{
     background-color:white;
     color: 
     #242424;
-    font-weight: bold;
     border-radius: 30px;
-    padding: 15px 30px;
+    padding: 17px 34px;
+    font-size: 12px;
     position: absolute;
-    top: 365px; 
+    top: 407px; 
     transform: rotate(-10deg);
+    font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
+    font-weight: 500;
 
 }
 .Main__GroupeCompétence{
     display: flex;
     flex-wrap: wrap; 
     padding: 30px 10px;
+    padding-top: 100px;
+    padding-left: 16px;
+
 }
 .Main__Compétence{
     width: 50%;
-    padding: 3px;
+    padding: 0px;
+    margin-top: 70px;
+    
     
     
 }
 .Main__Titre2{
-    font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 400;
     width: 180px;
     color: #242424;
     font-family: "Otterco Regular", "Otterco Regular Placeholder", sans-serif;
 }
 .Main__paragraphe{
     color:rgb(66, 66, 66) ;
-    padding: 5px;
-    line-height: 22px;
+    line-height: 18px;
+    font-size: 13px;
     font-family: Otterco, "Otterco Placeholder", sans-serif;
+    width: 165px;
+    font-weight: 300;
 }
 
 /* Main2 de la page cv */
@@ -389,6 +403,7 @@ body{
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
     padding: 15px;
+    
     background-color: #F9F9F9;
     border-top: 2px solid rgb(230, 230, 230);
 }
@@ -396,9 +411,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-bottom: 1px solid black;
     padding:60px 20px;
     line-height: 40px;
+    margin-bottom:30px;
 }
 .Footer__Texte{
     font-size: 33px;
@@ -414,6 +429,7 @@ body{
 .footer__Renseingnement a[href="WhatsApp"] {
     background-color: rgb(255, 255, 255);
     color: black;
+    border: 5px solid #F1F0EF;
 }
 .Footer__Lien{
     text-decoration: none;
@@ -425,15 +441,14 @@ body{
     margin-right: 5px;
     font-weight: bold;
     font-family: "Otterco Medium", "Otterco Medium Placeholder", sans-serif;
-    border: 5px solid #F1F0EF;
     
 }
 .Footer__Droit{
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 13px;
 }
 .Footer__Image{
-    height: 180px;
+    height: 130px;
     clip-path: circle();
 }
 .Footer__LienNav{
@@ -447,6 +462,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding:10px 6px;
-    gap: 20p;
+    padding:27px 6px;
+    gap: 20px;
+    border-top: 1px solid black;
+    
 }
