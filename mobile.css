@@ -78,8 +78,7 @@ body{
     width: 320px;
     background: linear-gradient(to right, 
     black, #918f8f);
-      -webkit-background-clip: text;
-      color: transparent;
+    background-clip: text;color:transparent;
     
 }
 .Header__Button{
@@ -182,7 +181,7 @@ body{
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
     background: linear-gradient(to right, 
     #000000, #6e6e6e);
-      -webkit-background-clip: text;
+      background-clip: text;
       color: transparent;
       font-weight: 500;
 }
@@ -362,9 +361,7 @@ body{
 }
 
 /* Parti de la page projet */
-.Projet__groupe-description{
-    
-}
+
 .Projet__texte{
     border-top: 10px double black;
 }
@@ -423,7 +420,7 @@ body{
     font-family: "Otterco Display SemiBold", "Otterco Display SemiBold Placeholder", sans-serif;
     background: linear-gradient(to right, 
     #000000, #6e6e6e);
-      -webkit-background-clip: text;
+      background-clip: text;
       color: transparent;
 }
 .footer__Renseingnement a[href="WhatsApp"] {
