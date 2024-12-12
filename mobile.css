@@ -206,19 +206,20 @@ body{
     border-radius: 30px;
     padding: 17px 34px;
     font-size: 12px;
-    position: absolute;
-    top: 407px; 
+    position: relative; 
+    top: -35px;
     transform: rotate(-10deg);
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
     font-weight: 500;
+    margin: 0;
 
 }
 .Main__GroupeCompétence{
     display: flex;
     flex-wrap: wrap; 
     padding: 30px 10px;
-    padding-top: 100px;
     padding-left: 16px;
+    padding-bottom: 85px;
 
 }
 .Main__Compétence{
