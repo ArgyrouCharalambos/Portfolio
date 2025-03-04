@@ -1,18 +1,51 @@
+@font-face {
+    font-family: 'Otterco Display Medium';
+    src: url('./Police/Otterco\ Display\ Medium.otf') format('opentype');
+  }
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
 .Header{
     padding-bottom: 150px;
 }
-
+.Header-Nom{
+    
+    font-size: 12px;
+}
+.Header-Icone1{
+    width: 20px;
+    height: 20px;
+}
+.Header-Icone2{
+    background-image: url(./Photo/img.webp);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+.Header-Icone3{
+    background-image: url(./Photo/img2.jpg);
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
 .Header__GroupeNav{
     gap: 350px;
 }
 .Header__Image{
     height: 200px;
-}
-.Header__Lien{
-    padding: 18px 36px;
+    width: 200px;
+    border-radius: 50%;
 }
 .Header__Icone{
     padding: 20px;
+}
+.Header-Nom{
+    width: 150px;
+    left: 200px;
 }
 .Header__Texte{
     font-size: 55px;
@@ -21,30 +54,78 @@
 .Header__GroupeMain{
     padding: 50px 40px;
 }
+.Logo-Déroulement {
+    gap: 60px;
+}
+
+
+@keyframes defilement {
+    0% {
+        transform: translateX(100%);
+    }
+    50%{
+      transform: translateX(-15%);
+    }
+    100% {
+        transform: translateX(-130%); /* Déplace les logos vers la gauche */
+    }
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Logo-Déroulement img {
+    margin: 0 15px;
+    height: 40px;
+}
 .Main__Titre{
     font-size: 35px;
-    padding: 70px 300px;
+    padding: 70px 200px;
 }
 .Main__SousTitre{
-    top: -74px;
-    background-color: #F0EFEE;
+    top: 480px;
+    background-color: white;
     color: black;
-    padding: 25px 50px;
+    padding: 15px 30px;
     font-size: 20px;
     margin: 0;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+.Main__GroupeCompétence{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 10px;
+    padding-left: 30px;
+    margin: 50px 0px;
 }
 .Main__GroupeCompétence{
     width: 100%;
    padding: 40px;
+   margin-left: 100px;
+}
+.Main__Compétence{
+    width: 100px;
+    
+}
+.Main__Titre{
+    font-size: 40px;
+    width: 1000px;
+    
 }
 .Main__Titre2{
-    font-size: 30px;
+    font-size: 20px;
     width: 350px;
 }
+.Main__image{
+    height: 70px;
+    width: 70px;
+}
 .Main__paragraphe{
-    color:rgb(66, 66, 66) ;
-    line-height: 35px;
-    font-size: 25px;
+    color:rgb(80, 80, 80) ;
+    line-height: 20px;
+    font-size: 17px;
 }
 .Main__Compétence{
     width: 25%;
@@ -52,6 +133,10 @@
 .Main__paragraphe{
     width: 210px;
     margin-right: 20px;
+}
+.Footer__Image{
+    width: 200px;
+    height: 200px;
 }
 
 /* Parti du CV */
