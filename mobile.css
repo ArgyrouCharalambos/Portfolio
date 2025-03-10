@@ -55,19 +55,20 @@ body{
 .Header-Icone1{
     background-image: url(./Photo/img2.jpg);
     background-size: contain;
+    border-radius: 50%;
     width: 20px;
     height: 20px;
 }
 .Header-Icone2{
     background-image: url(./Photo/1161953_instagram_icon.png);
-    background-size: cover;
+    background-size: contain;
     
     width: 20px;
     height: 20px;
 }
 .Header-Icone3{
-    background-image: url(./Photo/img.webp);
-    background-size: contain;
+    background-image: url(./Photo/843786_whatsapp_icon.png);
+    background-size: cover;
     width: 20px;
     height: 20px;
 }
@@ -427,7 +428,7 @@ body{
       -webkit-background-clip: text;
       color: transparent;
 }
-.footer__Renseingnement a[href="WhatsApp"] {
+.footer__Renseingnement a[href="https://wa.me/243851204797"] {
     background-color: rgb(255, 255, 255);
     color: black;
     border: 4px solid #e4e4e4;
@@ -446,7 +447,7 @@ body{
 }
 .Footer__Droit{
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
 }
 .Footer__Image{
     height: 130px;
@@ -463,5 +464,5 @@ body{
     justify-content: space-between;
     padding:27px 6px;
     gap: 20px;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(141, 141, 141);
 }

@@ -17,17 +17,18 @@ body{
     font-size: 12px;
 }
 .Header-Icone1{
+    background-image: url(./Photo/img2.jpg);
     width: 20px;
     height: 20px;
 }
 .Header-Icone2{
-    background-image: url(./Photo/img.webp);
+    background-image: url(./Photo/1161953_instagram_icon.png);
     background-size: contain;
     width: 20px;
     height: 20px;
 }
 .Header-Icone3{
-    background-image: url(./Photo/img2.jpg);
+    background-image: url(./Photo/843786_whatsapp_icon.png);
     background-size: contain;
     width: 20px;
     height: 20px;
@@ -45,7 +46,8 @@ body{
 }
 .Header-Nom{
     width: 150px;
-    left: 200px;
+    left: 150px;
+
 }
 .Header__Texte{
     font-size: 55px;
@@ -84,7 +86,7 @@ body{
     padding: 70px 200px;
 }
 .Main__SousTitre{
-    top: 480px;
+    top: 440px;
     background-color: white;
     color: black;
     padding: 15px 30px;
