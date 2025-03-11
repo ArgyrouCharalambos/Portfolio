@@ -16,23 +16,6 @@ body{
     
     font-size: 12px;
 }
-.Header-Icone1{
-    background-image: url(./Photo/img2.jpg);
-    width: 20px;
-    height: 20px;
-}
-.Header-Icone2{
-    background-image: url(./Photo/1161953_instagram_icon.png);
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-}
-.Header-Icone3{
-    background-image: url(./Photo/843786_whatsapp_icon.png);
-    background-size: contain;
-    width: 20px;
-    height: 20px;
-}
 .Header__GroupeNav{
     gap: 350px;
 }
