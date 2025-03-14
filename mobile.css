@@ -111,7 +111,7 @@ body{
     position: relative;
 }
 .Header__Image{
-    background-image: url(./Photo/IMG-20241020-WA0015.jpg);
+    background-image: url(./Photo/IMG-20250204-WA0000.jpg);
     background-size: contain;
     height: 130px;
     width: 130px;
@@ -238,7 +238,7 @@ body{
 .Main__paragraphe{
     color:rgb(80, 80, 80) ;
     line-height: 20px;
-    font-size: 17px;
+    font-size: 13px;
     font-family: Otterco, "Otterco Placeholder", sans-serif;
     width: 165px;
     font-weight: 300;
