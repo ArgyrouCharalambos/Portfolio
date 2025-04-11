@@ -98,6 +98,7 @@ body{
     padding: 19px 29px;
     border-radius: 100px;
     font-family: "Otterco Medium", "Otterco Medium Placeholder", sans-serif;
+    box-shadow: 0 3px 7px black;
     
 }
 .Header__GroupeMain{
@@ -113,10 +114,11 @@ body{
 .Header__Image{
     background-image: url(./Photo/IMG-20250204-WA0000.jpg);
     background-size: contain;
-    height: 130px;
-    width: 130px;
+    height: 135px;
+    width: 135px;
     border-radius: 100px;
     border: 5px solid #ffffff;
+    box-shadow: 3px 4px 7px #3d3d3d;
 }
 .Header-Nom{
     color: black;
@@ -124,7 +126,7 @@ body{
     padding: 13px 10px;
     border-radius: 30px;
     font-size: 9px;
-    box-shadow: 0 2px 5px #6e6e6e;
+    box-shadow: 3px 4px 7px #3d3d3d;
     position: absolute;
     top: 40px;
     left: 95px; 
@@ -173,23 +175,24 @@ body{
         transform: translateX(100%);
     }
     50%{
-      transform: translateX(-85%);
+        transform: translateX(-85%);
     }
     100% {
-        transform: translateX(-270%); /* Déplace les logos vers la gauche */
+           transform: translateX(-270%);
     }
 }
 .Main__image{
   height: 35px ;
-  clip-path: circle();
 }
+.Main__image4{
+    height: 25px ;
+  }
 .Main__Titre{
     padding: 10px;
     font-size: 30px;
     line-height: 43px;
     text-align: center;
-    border-bottom: 2px solid rgb(230, 230, 230);
-    padding-bottom: 60px;
+    padding-bottom: 15px;
     margin: 0;
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
     background: linear-gradient(to right, 
@@ -210,23 +213,24 @@ body{
     color: 
     #242424;
     border-radius: 30px;
-    padding: 17px 34px;
-    font-size: 12px;
-    position: absolute;
-    top: 400px; 
+    border: 1px solid rgb(230, 230, 230);
+    padding: 20px 40px;
+    font-size: 15px;
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
     font-weight: 500;
 }
+
 .Main__GroupeCompétence{
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 10px;
+    padding: 0px 10px;
     padding-left: 16px;
+    margin-bottom: 20px;
 }
 .Main__Compétence{
     width: 50%;
     padding: 0px;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 .Main__Titre2{
     font-size: 15px;

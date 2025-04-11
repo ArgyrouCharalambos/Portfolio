@@ -83,12 +83,12 @@ body{
     flex-wrap: wrap;
     padding: 30px 10px;
     padding-left: 30px;
-    margin: 50px 0px;
+    margin: 20px 0px;
 }
 .Main__GroupeCompétence{
     width: 100%;
    padding: 40px;
-   margin-left: 100px;
+   margin-left: 30px;
 }
 .Main__Compétence{
     width: 100px;
@@ -100,17 +100,21 @@ body{
     
 }
 .Main__Titre2{
-    font-size: 20px;
+    font-size: 17px;
     width: 350px;
 }
 .Main__image{
+    height: 60px;
+    width: 60px;
+}
+.Main__image4{
     height: 70px;
     width: 70px;
 }
 .Main__paragraphe{
     color:rgb(80, 80, 80) ;
     line-height: 20px;
-    font-size: 17px;
+    font-size: 13px;
 }
 .Main__Compétence{
     width: 25%;
