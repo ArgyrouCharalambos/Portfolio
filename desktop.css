@@ -127,18 +127,6 @@ body{
     width: 200px;
     height: 200px;
 }
-
-/* Parti du CV */
-
-
-.CV__Titre3{
-    margin: 0 350px;
-}
-.CV__Titr3{
-    top: -50px;
-    margin: 0 350px;
-}
-
 .Footer__Texte{
     font-size: 50px;
     width: 700px;
