@@ -2,13 +2,3 @@
     top: 310px;
 }
 
-/* Parti de la page projet */
-
-.Projet__groupe-description{
-    display: flex;
-}
-.Projet__image{
-    width: 35%;
-    border-top: 10px double black;
-    padding-top: 20px;
-}
