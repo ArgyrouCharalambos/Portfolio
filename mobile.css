@@ -31,6 +31,11 @@ body{
     padding: 12px 31px ;
     
 }
+.Header__Nav a[href="./Photo/cv.jpg"]:hover{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+}
 .Header__Lien{
     text-decoration: none;
     color: white;
@@ -42,6 +47,11 @@ body{
     font-family: "Otterco Display Medium", "Otterco Display Medium Placeholder", sans-serif;
     font-size: 11px;
 }
+.Header__Lien:hover{
+    background-color: #ffffff;
+    color: #000000;
+    border: 4px solid #e4e4e4;
+}
 .Header-SectionIcone{
     display: flex;
     gap: 3px;
@@ -49,28 +59,23 @@ body{
 .Header__NavIcone{
     background-color:white;
     border-radius: 30px;
-    padding: 8px;
+    padding: 5px 7px;
     border: 4px solid #e4e4e4;
 }
 .Header-Icone1{
-    background-image: url(./Photo/img2.jpg);
-    background-size: contain;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
 }
 .Header-Icone2{
-    background-image: url(./Photo/1161953_instagram_icon.png);
-    background-size: contain;
-    
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
 }
 .Header-Icone3{
-    background-image: url(./Photo/linkedin.png);
-    background-size: cover;
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+    padding-top: 3px;
 }
 .Header__Texte{
     color: rgb(0, 0, 0);
