@@ -62,7 +62,7 @@ body{
 }
 .Header__NavIcone{
     background-color:white;
-    border-radius: 30px;
+    border-radius: 50%;
     border: 4px solid #e4e4e4;
     display: flex;
     align-items: center;
