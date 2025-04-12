@@ -97,7 +97,6 @@ body{
     font-size: 20px;
     margin: 0;
     border-radius: 30px;
-    letter-spacing: 2px;
 }
 .Main__GroupeCompétence{
     display: flex;
@@ -112,13 +111,11 @@ body{
    margin-left: 30px;
 }
 .Main__Compétence{
-    width: 100px;
-    
+    width: 100px;    
 }
 .Main__Titre{
     font-size: 40px;
-    width: 1000px;
-    
+    width: 1000px;    
 }
 .Main__Titre2{
     font-size: 17px;
